@@ -10,6 +10,7 @@ To run this script, you need:
 - `pandas` Python package
 - `pybis` Python package
 - `getpass` Python package
+
 You also need to have an Excel file named 'openbis_object_observation_properties_revised.xlsx' in the same directory as the script.
 The Excel file should have columns named 'Code', 'Label', 'Description', and 'Data Type'.
 
