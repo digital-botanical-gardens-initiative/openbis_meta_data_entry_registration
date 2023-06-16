@@ -8,7 +8,7 @@ This Python script is used to read properties from an Excel file and register th
 To run this script, you need:
 - Python 3.6 or higher
 - `pandas` Python package
-- `pybis` Python package
+- `pybis` Python package. Go to: https://pypi.org/project/PyBIS/
 - `getpass` Python package
 
 You also need to have an Excel file named 'openbis_object_observation_properties_revised.xlsx' in the same directory as the script.
