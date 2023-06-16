@@ -12,6 +12,7 @@ To run this script, you need:
 - `getpass` Python package
 
 You also need to have an Excel file named 'openbis_object_observation_properties_revised.xlsx' in the same directory as the script.
+
 The Excel file should have columns named 'Code', 'Label', 'Description', and 'Data Type'.
 
 ## Usage under Linux/Ubuntu
