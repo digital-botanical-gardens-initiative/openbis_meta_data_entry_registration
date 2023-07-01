@@ -1,0 +1,141 @@
+Code,Label,Description,Data Type
+OBSERVATION_ID,id,inaturalist observation ID,INTEGER
+QUALITY_GRADE,quality_grade,quality grade,VARCHAR
+TIME_OBSERVED_AT,time_observed_at,time of observation,TIMESTAMP
+TAXON_GEOPRIVACY,taxon_geoprivacy,taxon geoprivacy,VARCHAR
+ANNOTATIONS,annotations,annotations,VARCHAR
+UUID,uuid,uuid,MULTILINE_VARCHAR
+CACHED_VOTES_TOTAL,cached_votes_total,cached votes total,INTEGER
+IDENTIFICATIONS_MOST_AGREE,identifications_most_agree,identifications most agree,BOOLEAN
+SPECIES_GUESS,species_guess,name of species guess,VARCHAR
+IDENTIFICATIONS_MOST_DISAGREE,identifications_most_disagree,identifications most disagree,BOOLEAN
+TAGS,tags,tags,VARCHAR
+POSITIONAL_ACCURACY,positional_accuracy,positional accuracy,INTEGER
+COMMENTS_COUNT,comments_count,number of comments,INTEGER
+SITE_ID,site_id,site id,INTEGER
+LICENSE_CODE,license_code,license code,VARCHAR
+QUALITY_METRICS,quality_metrics,quality metrics,MULTILINE_VARCHAR
+PUBLIC_POSITIONAL_ACCURACY,public_positional_accuracy,public positional accuracy,INTEGER
+REVIEWED_BY,reviewed_by,reviewed by,VARCHAR
+OAUTH_APPLICATION_ID,oauth_application_id,oauth application id,INTEGER
+FLAGS,flags,flags,VARCHAR
+CREATED_AT,created_at,time of creation,TIMESTAMP
+DESCRIPTION,description,description,VARCHAR
+PROJECT_IDS_WITH_CURATOR_ID,project_ids_with_curator_id,project ids with curator id,VARCHAR
+UPDATED_AT,updated_at,time of update,TIMESTAMP
+SOUNDS,sounds,sounds,VARCHAR
+PLACE_IDS,place_ids,place ids,VARCHAR
+CAPTIVE,captive,Is the plant captive or not,BOOLEAN
+IDENT_TAXON_IDS,ident_taxon_ids,ident taxon ids,VARCHAR
+OUTLINKS,outlinks,outlinks,VARCHAR
+FAVES_COUNT,faves_count,faves count,INTEGER
+OFVS,ofvs,ofvs,MULTILINE_VARCHAR
+NUM_IDENTIFICATION_AGREEMENTS,num_identification_agreements,num identification agreements,INTEGER
+COMMENTS,comments,comments,MULTILINE_VARCHAR
+MAP_SCALE,map_scale,map scale,INTEGER
+URI,uri,link to iNaturalist ,HYPERLINK
+PROJECT_IDS,project_ids,project ids,VARCHAR
+COMMUNITY_TAXON_ID,community_taxon_id,community taxon id,INTEGER
+OWNERS_IDENTIFICATION_FROM_VISION,owners_identification_from_vision,owners identification from vision,BOOLEAN
+IDENTIFICATIONS_COUNT,identifications_count,number of identifications,INTEGER
+OBSCURED,obscured,obscured,BOOLEAN
+NUM_IDENTIFICATION_DISAGREEMENTS,num_identification_disagreements,num identification disagreements,INTEGER
+GEOPRIVACY,geoprivacy,geoprivacy,VARCHAR
+LOCATION,location,coordinates of location,MULTILINE_VARCHAR
+VOTES,votes,votes,VARCHAR
+SPAM,spam,spam,BOOLEAN
+MAPPABLE,mappable,mappable,BOOLEAN
+IDENTIFICATIONS_SOME_AGREE,identifications_some_agree,identifications some agree,BOOLEAN
+PROJECT_IDS_WITHOUT_CURATOR_ID,project_ids_without_curator_id,project ids without curator id,VARCHAR
+PLACE_GUESS,place_guess,place guess,VARCHAR
+IDENTIFICATIONS,identifications,identifications,VARCHAR
+PROJECT_OBSERVATIONS,project_observations,project observations,VARCHAR
+PHOTOS,photos,photos,VARCHAR
+FAVES,faves,faves,VARCHAR
+NON_OWNER_IDS,non_owner_ids,non owner ids,VARCHAR
+OBSERVED_ON,observed_on,date of observation,TIMESTAMP
+PHOTO_URL,photo_url,url of plant's photo,HYPERLINK
+TAXON_IS_ACTIVE,taxon.is_active,taxon is active,BOOLEAN
+TAXON_ANCESTRY,taxon.ancestry,taxon ancestry,MULTILINE_VARCHAR
+TAXON_MIN_SPECIES_ANCESTRY,taxon.min_species_ancestry,taxon min species ancestry,MULTILINE_VARCHAR
+TAXON_ENDEMIC,taxon.endemic,taxon endemic,BOOLEAN
+TAXON_ICONIC_TAXON_ID,taxon.iconic_taxon_id,taxon iconic taxon id,INTEGER
+TAXON_MIN_SPECIES_TAXON_ID,taxon.min_species_taxon_id,taxon min species taxon id,INTEGER
+TAXON_THREATENED,taxon.threatened,taxon threatened,BOOLEAN
+TAXON_RANK_LEVEL,taxon.rank_level,taxon rank level,INTEGER
+TAXON_INTRODUCED,taxon.introduced,taxon introduced,BOOLEAN
+TAXON_NATIVE,taxon.native,taxon native,BOOLEAN
+TAXON_PARENT_ID,taxon.parent_id,taxon parent id,INTEGER
+TAXON_NAME,taxon.name,taxon name,VARCHAR
+TAXON_RANK,taxon.rank,taxon rank,VARCHAR
+TAXON_EXTINCT,taxon.extinct,is the taxon extinct,BOOLEAN
+TAXON_ID,taxon.id,taxon id,INTEGER
+TAXON_ANCESTOR_IDS,taxon.ancestor_ids,taxon ancestor ids,MULTILINE_VARCHAR
+TAXON_PHOTOS_LOCKED,taxon.photos_locked,taxon photos locked,BOOLEAN
+TAXON_TAXON_SCHEMES_COUNT,taxon.taxon_schemes_count,taxon taxon schemes count,INTEGER
+TAXON_WIKIPEDIA_URL,taxon.wikipedia_url,URL of taxon's wikipedia page,HYPERLINK
+TAXON_CURRENT_SYNONYMOUS_TAXON_IDS,taxon.current_synonymous_taxon_ids,taxon current synonymous taxon ids,VARCHAR
+TAXON_CREATED_AT,taxon.created_at,time of taxon's creation,TIMESTAMP
+TAXON_TAXON_CHANGES_COUNT,taxon.taxon_changes_count,number of time the taxon has been changed,INTEGER
+TAXON_COMPLETE_SPECIES_COUNT,taxon.complete_species_count,number of species in the taxon,INTEGER
+TAXON_UNIVERSAL_SEARCH_RANK,taxon.universal_search_rank,taxon universal search rank,INTEGER
+TAXON_OBSERVATIONS_COUNT,taxon.observations_count,number of observations of the taxon,INTEGER
+TAXON_FLAG_COUNTS_RESOLVED,taxon.flag_counts.resolved,taxon flag counts resolved,INTEGER
+TAXON_FLAG_COUNTS_UNRESOLVED,taxon.flag_counts.unresolved,taxon flag counts unresolved,INTEGER
+TAXON_ATLAS_ID,taxon.atlas_id,taxon atlas id,INTEGER
+TAXON_DEFAULT_PHOTO_ID,taxon.default_photo.id,taxon's photo id,INTEGER
+TAXON_DEFAULT_PHOTO_LICENSE_CODE,taxon.default_photo.license_code,taxon's photo id license code,VARCHAR
+TAXON_DEFAULT_PHOTO_ATTRIBUTION,taxon.default_photo.attribution,taxon default photo attribution,VARCHAR
+TAXON_DEFAULT_PHOTO_URL,taxon.default_photo.url,taxon's photo id url,HYPERLINK
+TAXON_DEFAULT_PHOTO_ORIGINAL_DIMENSIONS_HEIGHT,taxon.default_photo.original_dimensions.height,height of taxon's photo,INTEGER
+TAXON_DEFAULT_PHOTO_ORIGINAL_DIMENSIONS_WIDTH,taxon.default_photo.original_dimensions.width,width of taxon's photo,INTEGER
+TAXON_DEFAULT_PHOTO_FLAGS,taxon.default_photo.flags,taxon default photo flags,VARCHAR
+TAXON_DEFAULT_PHOTO_SQUARE_URL,taxon.default_photo.square_url,taxon default photo square url,HYPERLINK
+TAXON_DEFAULT_PHOTO_MEDIUM_URL,taxon.default_photo.medium_url,taxon default photo medium url,HYPERLINK
+TAXON_ICONIC_TAXON_NAME,taxon.iconic_taxon_name,taxon iconic taxon name,VARCHAR
+TAXON_PREFERRED_COMMON_NAME,taxon.preferred_common_name,taxon preferred common name,VARCHAR
+PREFERENCES_PREFERS_COMMUNITY_TAXON,preferences.prefers_community_taxon,preferences prefers community taxon,VARCHAR
+GEOJSON_COORDINATES,geojson.coordinates,geojson coordinates,VARCHAR
+GEOJSON_TYPE,geojson.type,type of geojson coordinates,VARCHAR
+USER_SITE_ID,user.site_id,user site id,INTEGER
+USER_CREATED_AT,user.created_at,time of user's creation,TIMESTAMP
+USER_ID,user.id,user's id,INTEGER
+USER_LOGIN,user.login,urer's login,VARCHAR
+USER_SPAM,user.spam,user spam,BOOLEAN
+USER_SUSPENDED,user.suspended,is the user suspended,BOOLEAN
+USER_LOGIN_AUTOCOMPLETE,user.login_autocomplete,user login autocomplete,VARCHAR
+USER_LOGIN_EXACT,user.login_exact,user's exact login,VARCHAR
+USER_NAME,user.name,username,VARCHAR
+USER_NAME_AUTOCOMPLETE,user.name_autocomplete,user name autocomplete,VARCHAR
+USER_ORCID,user.orcid,user orcid,INTEGER
+USER_ICON,user.icon,user icon,HYPERLINK
+USER_OBSERVATIONS_COUNT,user.observations_count,number of user's observations,INTEGER
+USER_IDENTIFICATIONS_COUNT,user.identifications_count,number of user's identification,INTEGER
+USER_JOURNAL_POSTS_COUNT,user.journal_posts_count,number of user's journal posts,INTEGER
+USER_ACTIVITY_COUNT,user.activity_count,user activity count,INTEGER
+USER_SPECIES_COUNT,user.species_count,user species count,INTEGER
+USER_UNIVERSAL_SEARCH_RANK,user.universal_search_rank,user universal search rank,INTEGER
+USER_ROLES,user.roles,user roles,VARCHAR
+USER_ICON_URL,user.icon_url,user icon url,HYPERLINK
+TAXON_DEFAULT_PHOTO,taxon.default_photo,taxon default photo,HYPERLINK
+TAXON_CONSERVATION_STATUS_PLACE_ID,taxon.conservation_status.place_id,taxon conservation status place id,INTEGER
+TAXON_CONSERVATION_STATUS_SOURCE_ID,taxon.conservation_status.source_id,taxon conservation status source id,INTEGER
+TAXON_CONSERVATION_STATUS_USER_ID,taxon.conservation_status.user_id,taxon conservation status user id,INTEGER
+TAXON_CONSERVATION_STATUS_AUTHORITY,taxon.conservation_status.authority,taxon conservation status authority,MULTILINE_VARCHAR
+TAXON_CONSERVATION_STATUS_STATUS,taxon.conservation_status.status,taxon conservation status status,MULTILINE_VARCHAR
+TAXON_CONSERVATION_STATUS_STATUS_NAME,taxon.conservation_status.status_name,taxon conservation status status name,VARCHAR
+TAXON_CONSERVATION_STATUS_GEOPRIVACY,taxon.conservation_status.geoprivacy,taxon conservation status geoprivacy,MULTILINE_VARCHAR
+TAXON_CONSERVATION_STATUS_IUCN,taxon.conservation_status.iucn,taxon conservation status iucn,INTEGER
+OBSERVED_ON_DETAILS,observed_on_details,observed on details,VARCHAR
+CREATED_TIME_ZONE,created_time_zone,timezone of creation,VARCHAR
+OBSERVED_TIME_ZONE,observed_time_zone,timezone of observation,VARCHAR
+TIME_ZONE_OFFSET,time_zone_offset,time zone offset,VARCHAR
+OBSERVED_ON_STRING,observed_on_string,observed on string,VARCHAR
+CREATED_AT_DETAILS_DATE,created_at_details.date,date of creation,TIMESTAMP
+CREATED_AT_DETAILS_WEEK,created_at_details.week,week of creation,INTEGER
+CREATED_AT_DETAILS_MONTH,created_at_details.month,month of creation,INTEGER
+CREATED_AT_DETAILS_HOUR,created_at_details.hour,hour of creation,INTEGER
+CREATED_AT_DETAILS_YEAR,created_at_details.year,year of creation,INTEGER
+CREATED_AT_DETAILS_DAY,created_at_details.day,day of creation,INTEGER
+SWIPED_LOC,swiped_loc,swapped location coordinates,MULTILINE_VARCHAR
+EMI_EXTERNAL_ID,emi_external_id,earth Metabolome Initiative external ID,VARCHAR
