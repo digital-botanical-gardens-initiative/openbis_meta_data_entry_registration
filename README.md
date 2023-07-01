@@ -24,3 +24,14 @@ Before running the script, please, provide your openBIS login to connect to the 
 2.	Run the following command:
 python3 ./DBGI_openBIS_pybis_object_and_property_registrator.py
 3.	Provide your openBIS login password. 
+
+
+## Excel to csv
+
+For versioning puproses i
+t can be useful to convert the .xlsx format required by openBis to .csv
+For this we can use the `in2csv` tool of `csvkit`
+
+```
+in2csv ./data/openbis_object_observation_properties_revised_ordered.xlsx > ./data/openbis_object_observation_properties_revised_ordered.csv
+````
